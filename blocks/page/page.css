@@ -14,7 +14,7 @@
 @font-face {
   font-family: 'Inter';
   src: url(../../fonts/static/Inter-Regular.ttf);
-  font-style: Regular;
+  font-style: regular;
 }
 .page {
   background-color: #2A2C2F;
