@@ -5,14 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
-  <title>Document</title>
+  <title>Путешествие по России</title>
 </head>
 <body>
   <div class="page">
     <header class="header">
       <img src="./images/header-logo.svg" alt="Логотип" class="header__logo">
       <div class="header__lang">
-        <a href="#" class="header__lang-link">Ru</a>
+        <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
         <a href="#" class="header__lang-link">En</a>
       </div>
     </header>
@@ -28,23 +28,23 @@
         <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
           <li class="intro__list-item">
-            Часовых поясов 11
+            Часовых поясов <span class="intro__list-digits">11</span>
           </li>
           <li class="intro__list-item">
-            Объектов природного наследия ЮНЕСКО 12
+            Объектов природного наследия ЮНЕСКО <span class="intro__list-digits">12</span>
           </li>
           <li class="intro__list-item">
-            Объектов культурного наследия ЮНЕСКО 16
+            Объектов культурного наследия ЮНЕСКО <span class="intro__list-digits">16</span>
           </li>
           <li class="intro__list-item">
-            Природных заповедников 105
+            Природных заповедников <span class="intro__list-digits">105</span>
           </li>
           <li class="intro__list-item">
-            Аэропортов 241
+            Аэропортов <span class="intro__list-digits">241</span>
           </li>
         </ul>
       </section>
-      <div class="photo-grid">
+      <section class="photo-grid" aria-label="Картинки">
         <img src="./images/photo-grid-train.jpg" alt="Фото из окна поезда" class="photo-grid__item">
         <img src="./images/photo-grid-atharva-tulsi.jpg" alt="Фото гор под облаками" class="photo-grid__item">
         <img src="./images/photo-grid-tuman.jpg" alt="Фото поля, туман" class="photo-grid__item">
@@ -57,7 +57,7 @@
         <img src="./images/photo-grid-kamchatka-2.jpg" alt="Горы Камчатки" class="photo-grid__item">
         <img src="./images/photo-grid-baikal-2.jpg" alt="Гора на Байкале" class="photo-grid__item">
         <img src="./images/photo-grid-ergaki.jpg" alt="Горы в тумане" class="photo-grid__item">
-      </div>
+      </section>
       <section class="places">
         <ul class="places__list">
           <li class="place">
@@ -140,10 +140,10 @@
         </ul>
       </section>
       <section class="cover">
-        <div class="cover__background">
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__background">
           <h2 class="cover__title">До Байкала &#171;на собаках&#187;</h2>
           <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе - путешествие от столицы до Байкала на электричках.</h3>
-        </div>
+        </a>
       </section>
     </main>
     <footer class="footer">

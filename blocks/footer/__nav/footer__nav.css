@@ -4,6 +4,6 @@
   .footer__nav {
     display: flex;
     flex-direction: column;
-    
+    max-width: 186px;
   }
 }

@@ -3,11 +3,15 @@
   font-size: 24px;
   line-height: 28px;
   font-weight: 400;
-  margin-right: 18px;
-}
-.header__lang-link:last-child {
-  margin: 0;
   text-decoration: none;
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  transition-delay: 0;
+}
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 @media screen and (max-width: 767px) {
   .header__lang-link {
